@@ -16,6 +16,10 @@ th {
   letter-spacing: 2px;
   font-weight: bold;
   color: white;
-  background-color: #1e90ff;
+  background-color: dodgerblue;
   font-size: x-large;
+}
+
+.rosterTable th {
+  cursor: pointer
 }
