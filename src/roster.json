@@ -1,0 +1,142 @@
+[
+  {
+    "firstName": "David",
+    "lastName": "Price",
+    "role": "SP",
+    "salary": 31000000,
+    "age": 34
+  },
+  {
+    "firstName": "Clayton",
+    "lastName": "Kershaw",
+    "role": "SP",
+    "salary": 31000000,
+    "age": 32
+  },
+  {
+    "firstName": "Kenley",
+    "lastName": "Jansen",
+    "role": "CP",
+    "salary": 16000000,
+    "age": 32
+  },
+  {
+    "firstName": "Justin",
+    "lastName": "Turner",
+    "role": "3B",
+    "salary": 16000000,
+    "age": 35
+  },
+  {
+    "firstName": "A.J.",
+    "lastName": "Pollock",
+    "role": "OF",
+    "salary": 12000000,
+    "age": 32
+  },
+  {
+    "firstName": "Mookie",
+    "lastName": "Betts",
+    "role": "OF",
+    "salary": 27000000,
+    "age": 27
+  },
+  {
+    "firstName": "Max",
+    "lastName": "Muncy",
+    "role": "1B",
+    "salary": 8666667,
+    "age": 29
+  },
+  {
+    "firstName": "Joe",
+    "lastName": "Kelly",
+    "role": "RP",
+    "salary": 8333333,
+    "age": 31
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Taylor",
+    "role": "2B",
+    "salary": 6700000,
+    "age": 29
+  },
+  {
+    "firstName": "Cody",
+    "lastName": "Bellinger",
+    "role": "OF",
+    "salary": 11500000,
+    "age": 29
+  },
+  {
+    "firstName": "Blake",
+    "lastName": "Treinen",
+    "role": "RP",
+    "salary": 10000000,
+    "age": 24
+  },
+  {
+    "firstName": "Joc",
+    "lastName": "Pederson",
+    "role": "LF",
+    "salary": 7750000,
+    "age": 27
+  },
+  {
+    "firstName": "Corey",
+    "lastName": "Seager",
+    "role": "SS",
+    "salary": 7600000,
+    "age": 25
+  },
+  {
+    "firstName": "Enrique",
+    "lastName": "Hernandez",
+    "role": "CF",
+    "salary": 5900000,
+    "age": 28
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "Wood",
+    "role": "SP",
+    "salary": 4000000,
+    "age": 29
+  },
+  {
+    "firstName": "Pedro",
+    "lastName": "Baez",
+    "role": "RP",
+    "salary": 4000000,
+    "age": 32
+  },
+  {
+    "firstName": "Ross",
+    "lastName": "Stripling",
+    "role": "RP",
+    "salary": 2100000,
+    "age": 30
+  },
+  {
+    "firstName": "Jimmy",
+    "lastName": "Nelson",
+    "role": "RP",
+    "salary": 1250000,
+    "age": 30
+  },
+  {
+    "firstName": "Austin",
+    "lastName": "Barnes",
+    "role": "C",
+    "salary": 1100000,
+    "age": 30
+  },
+  {
+    "firstName": "Julio",
+    "lastName": "Arias",
+    "role": "SP",
+    "salary": 1000000,
+    "age": 23
+  }
+]

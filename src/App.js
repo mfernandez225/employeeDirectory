@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NumberFormat from "react-number-format";
 import "./App.css";
 import _ from "lodash";
-import employees from "./employees.json";
+import employees from "./roster.json";
 
 function App() {
   const [sortBy, setSortBy] = useState();
@@ -12,21 +12,36 @@ function App() {
   if (sortBy) sortedEmployees = _.sortBy(sortedEmployees, sortBy);
   if (filterBy)
     sortedEmployees = sortedEmployees.filter(
-      employee => employee.salary >= 100000
+      employee => employee.salary >= 10000000
     );
 
   return (
-    <div className="App">
-      <label>
-        <input type="checkbox" onChange={() => setFilterBy(prev => !prev)} />{" "}
-        Filter
+    <div className="App text-center mb-5">
+      <label className="font-weight-bold mb-3">
+        Filter by salary above $10,000,000
+        <input
+          className="filterButton ml-2"
+          type="checkbox"
+          onChange={() => setFilterBy(prev => !prev)}
+        />{" "}
       </label>
-      <table>
+      <table className="rosterTable">
         <tr>
-          <th onClick={() => setSortBy("firstName")}>First Name</th>
-          <th onClick={() => setSortBy("lastName")}>Last Name</th>
-          <th onClick={() => setSortBy("role")}>Role</th>
-          <th onClick={() => setSortBy("salary")}>Salary</th>
+          <th onClick={() => setSortBy("firstName")}>
+            First Name<i className="fas fa-sort fa-xs"></i>
+          </th>
+          <th onClick={() => setSortBy("lastName")}>
+            Last Name<i className="fas fa-sort fa-xs"></i>
+          </th>
+          <th onClick={() => setSortBy("role")}>
+            Position<i className="fas fa-sort fa-xs"></i>
+          </th>
+          <th onClick={() => setSortBy("salary")}>
+            Salary<i className="fas fa-sort fa-xs"></i>
+          </th>
+          <th onClick={() => setSortBy("age")}>
+            Age<i className="fas fa-sort fa-xs"></i>
+          </th>
         </tr>
         {sortedEmployees.map(employee => (
           <tr>
@@ -41,6 +56,7 @@ function App() {
                 prefix="$"
               />
             </td>
+            <td>{employee.age}</td>
           </tr>
         ))}
       </table>

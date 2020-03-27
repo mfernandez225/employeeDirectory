@@ -1,0 +1,21 @@
+tr,
+th,
+td {
+  border: solid 1px black;
+  padding: 10px;
+  text-align: center;
+}
+
+i {
+  margin-left: 8px;
+}
+
+th {
+  font-family: 'Playball',
+    cursive;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: white;
+  background-color: #1e90ff;
+  font-size: x-large;
+}
